@@ -1,0 +1,5 @@
+name = "easyDDB disable type"
+description = "Configuration to disabel or enable displayng of type in tytles on search results."
+package = "easyDDB"
+core = "7.x"
+version = 7.x-0.1+easy
