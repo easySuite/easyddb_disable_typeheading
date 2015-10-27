@@ -1,5 +1,5 @@
 name = "easyDDB disable type"
-description = "Configuration to disabel or enable displayng of type in tytles on search results."
+description = "Configuration to disable/enable display of materialtype in titles on various pages."
 package = "easyDDB"
 core = "7.x"
-version = 7.x-0.1+easy
+version = 7.x-2.3.1+easy
