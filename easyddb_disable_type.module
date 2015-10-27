@@ -47,7 +47,7 @@ function easyddb_disable_type_preprocess_field(&$variables) {
   }
 
   $disable_types = variable_get('easyddb_disable_type', FALSE);
-  $prefix = $variables['element'][0]['title']['#prefix'];
+  $prefix = isset($variables['element'][0]['title']['#prefix']);
   if ($disable_types && $prefix) {
     unset($variables['items'][0]['title']['#prefix']);
   }
